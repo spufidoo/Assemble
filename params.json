@@ -1,0 +1,23 @@
+{
+  "assemble": {
+    "jobCard" : {
+      "jobname": "MJDUSS",
+      "account": "9999",
+      "username": "MVSMJD",
+      "notify": "&SYSUID",
+      "class": "C",
+      "priority": "",
+      "msgclass": "X",
+      "msglevel": "(1,1)",
+      "typrun": "",
+      "time": "",
+      "region": "0M"
+    },
+    "keepSpool": "true",
+    "defaultStdout": "\\*\\SYSPRINT.txt",
+    "defaultProfile": "DB2A",
+    "inputPDS": "MVSMJD.MARCUS.ASM",
+    "loadPDS": "MVSMJD.MARCUS.LOAD",
+    "outputJcl": "output.jcl"
+  }
+}

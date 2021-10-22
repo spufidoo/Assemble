@@ -1,0 +1,363 @@
+{
+  "editor.wordWrap": "on",
+  "C_Cpp.updateChannel": "Insiders",
+  "C_Cpp.autoAddFileAssociations": true,
+  "intelliSenseMode": "msvc-x64",
+  "browse": {
+    "path": [
+      "C:/dev/ccm/wa/",
+      "${workspaceFolder}"
+    ],
+    "limitSymbolsToIncludedHeaders": true,
+    "databaseFilename": ""
+  },
+  "C_Cpp.clang_format_style": "Visual Studio",
+  "C_Cpp.default.intelliSenseMode": "msvc-x64",
+  "C_Cpp.intelliSenseCachePath": ";%LocalAppData%/Microsoft/vscode-cpptools;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019;C:\\dev\\ccm\\wa;C:\\dev\\ccm\\maclib",
+  "files.associations": {
+    "*.COBOL*": "cobol",
+    "*.COB*": "cobol",
+    "*.COBCOPY*": "cobol",
+    "*.COPYBOOK*": "cobol",
+    "*.COPY*": "cobol",
+    "*.PL1*": "pl1",
+    "*.PLI*": "pl1",
+    "*.INC*": "pl1",
+    "*.INCLUDE*": "pl1",
+    "*.JCL*": "jcl",
+    "*.ASM*": "hlasm",
+    "*.ASSEMBLE*": "hlasm",
+    "*.HLASM*": "hlasm",
+    "*.HLA*": "hlasm",
+    "*.C(*)": "c",
+    "*.CPP(*)": "cpp",
+    "*.ASM(*)": "hlasm",
+    "*.MAC*(*)": "hlasm",
+    "*.C": "c",
+    "*.H(*)": "cpp",
+    "*.H": "cpp",
+    "*.REXX*": "rexx",
+    "*.EXEC*": "rexx",
+    "*.CBL*": "cobol",
+    "*.SQL(*)": "sql",
+    "*.pcc": "cpp",
+    "*.pc": "cpp",
+    "*.tcc": "cpp",
+    "*.asm": "hlasm",
+    "*.mac": "hlasm",
+    "*.pasm": "hlasm",
+    "*.CPP": "cpp",
+    "*.omd": "hlasmListing"
+  },
+  "[hlasm]": {},
+  "[macro]": {},
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "explorer.confirmDelete": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "git.enableSmartCommit": true,
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "[cpp]": {},
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "Zowe-DS-Persistent": {
+    "persistence": true,
+    "favorites": [
+      "[DB2A]: MVSMJD.MARCUS.ASM{pds}",
+      "[DB2A]: MVSMJD.MARCUS.JCL{pds}",
+      "[DB2A]: MVSMJD.MARCUS.SQL{pds}",
+      "[DB2A]: MVSMJD.SS.INPUT{pds}",
+      "[DB2A]: MVSMJD.SS.JCL{pds}",
+      "[DB2A]: MVSMJD.SS.OUTPUT{pds}"
+    ],
+    "history": [
+      "MVSMJD.MARCUS.JCL",
+      "'MVSMJD.MARCUS.JCL'",
+      "MVSMJD.MARCUS.OUTPUT",
+      "'CSG.ALIAS.DATA'",
+      "CSG.ALIAS.DATA(COMPLIER)"
+    ],
+    "sessions": [
+      "DB2A"
+    ],
+    "recall": [
+      "[DB2A]: MVSMJD.MARCUS.JCL(JILL1)",
+      "[DB2B]: MVSMJD.MARCUS.JCL(#CLASSES)",
+      "[DB2B]: MVSMJD.MARCUS.SQL(BERNARD)",
+      "[DB2B]: MVSMJD.MARCUS.JCL(COBSCEX)",
+      "[DB2B]: MVSMJD.MARCUS.SQL(#DB2OSC)",
+      "[DB2B]: MVSMJD.MARCUS.SQL(BILPOL)",
+      "[DB2B]: MVSMJD.MARCUS.SQL(BMC)",
+      "[DB2B]: MVSMJD.MARCUS.SQL(DG270201)",
+      "[DB2B]: MVSMJD.MARCUS.SQL(DG270200)",
+      "[DB2B]: MVSMJD.MARCUS.SQL(DG205013)"
+    ],
+    "searchHistory": [
+      "MVSMJD.MARCUS.*",
+      "d2u.v093dist.*",
+      "'d2u.v093dist.*'",
+      "ACM.HISTORY.SQL",
+      "MVSMJD.SS.*"
+    ],
+    "fileHistory": [
+      "[DB2A]: MVSMJD.MARCUS.ASM(WOOLLY)",
+      "[DB2A]: MVSMJD.MARCUS.JCL(ROWDYGRP)",
+      "[DB2A]: MVSMJD.MARCUS.JCL(ROWDYI)",
+      "[DB2A]: MVSMJD.MARCUS.JCL(ROWDYH)",
+      "[DB2A]: MVSMJD.MARCUS.JCL(ROWDYG)",
+      "[DB2A]: MVSMJD.MARCUS.JCL(ROWDYF)",
+      "[DB2A]: MVSMJD.MARCUS.JCL(ROWDYEML)",
+      "[DB2A]: MVSMJD.MARCUS.JCL(ROWDYE)",
+      "[DB2A]: MVSMJD.MARCUS.JCL(ROWDYD)",
+      "[DB2A]: MVSMJD.MARCUS.JCL(ROWDYC)"
+    ]
+  },
+  "Zowe-USS-Persistent": {
+    "persistence": true,
+    "favorites": [
+      "[DB2A]: /home/rdamjd{ussSession}"
+    ],
+    "history": [
+      "/home/rdamjd"
+    ],
+    "sessions": [
+      "DB2A"
+    ],
+    "recall": [
+      "[DB2A]: /HOME/RDAMJD/BIN/TARDIS.SH",
+      "[DB2A]: /HOME/RDAMJD/BIN/DALEK.SH",
+      "[DB2A]: /HOME/RDAMJD/DLK1.DB2",
+      "[DB2A]: /HOME/RDAMJD/JAVA/LIST_TB.JAVA",
+      "[DB2A]: /HOME/RDAMJD/COMP.JCL",
+      "[DB2A]: /HOME/RDAMJD/BPXBATCH-GREPOUT-30581",
+      "[DB2A]: /HOME/RDAMJD/BPXBATCH-GREPIN-30581",
+      "[DB2A]: /HOME/RDAMJD/BPXBATCH-GREPIN-30460",
+      "[DB2A]: /HOME/RDAMJD/DEJM.DB2",
+      "[DB2B]: /HOME/RDAMJD/CPP/BMCMSGS"
+    ],
+    "searchHistory": [
+      "/home/rdamjd",
+      "/shrd",
+      "/shrd/",
+      "/shrd/mvsmjd"
+    ],
+    "fileHistory": [
+      "[DB2A]: /HOME/RDAMJD/C/RRSUBSYS.C",
+      "[DB2A]: /HOME/RDAMJD/CLP.PROPERTIES",
+      "[DB2A]: /HOME/RDAMJD/JCL/TEMP",
+      "[DB2A]: /HOME/RDAMJD/SQL/ZEROPRI",
+      "[DB2A]: /HOME/RDAMJD/SQL/ZPARMS.DB2",
+      "[DB2A]: /HOME/RDAMJD/REXX/DB2U.REXX",
+      "[DB2A]: /HOME/RDAMJD/PYTHON/README",
+      "[DB2A]: /HOME/RDAMJD/JCL/DCLGEN",
+      "[DB2A]: /HOME/RDAMJD/JCL/BEHNE1",
+      "[DB2A]: /HOME/RDAMJD/.PYTHON_HISTORY"
+    ]
+  },
+  "Zowe-Jobs-Persistent": {
+    "persistence": true,
+    "favorites": [],
+    "history": [
+      "Owner:MVSMJD Prefix:*",
+      "Owner:MVSMJD Prefix:MVSMJD*",
+      "Owner:* Prefix:DEJMMSTR",
+      "Owner:* Prefix:JZLDYN",
+      "Owner:* Prefix:MDBRPT*"
+    ],
+    "sessions": [
+      "DB2A"
+    ],
+    "fileHistory": [],
+    "searchHistory": [
+      "Owner:MVSMJD Prefix:*",
+      "Owner:* Prefix:PQS*",
+      "Owner:MVSMJD Prefix:RE*",
+      "Owner:MVSMJD Prefix:RE"
+    ]
+  },
+  "python.jediEnabled": false,
+  "zos.hosts": [
+    {
+      "name": "http://mvsdb2b.bmc.com:32208",
+      "url": "http://mvsdb2b.bmc.com:32208",
+      "username": "MVSMJD"
+    },
+    {
+      "name": "http://db2a.bmc.com:8550",
+      "url": "http://db2a.bmc.com:8550",
+      "username": "MVSMJD"
+    },
+    {
+      "name": "http://db2a.bmc.com:32208",
+      "url": "http://db2a.bmc.com:32208",
+      "username": "mvsmjd"
+    }
+  ],
+  "zopeneditor.server.memoryAllocation": 1024,
+  "zopeneditor.JAVA_HOME": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.8.10-hotspot",
+  "zopeneditor.datasets": {
+    "cobolDatasets": [
+      ".COBOL",
+      ".COB",
+      ".COBCOPY",
+      ".COPYBOOK",
+      ".COPY"
+    ],
+    "jclDatasets": [
+      ".JCL"
+    ],
+    "pl1Datasets": [
+      ".PL1",
+      ".PLI",
+      ".INC",
+      ".INCLUDE"
+    ]
+  },
+  "zopeneditor.propertygroups": [
+    {
+      "syslib": [
+        "C:\\dev\\ccm\\wa\\asu\\1211\\asu\\code\\maclib",
+        "C:\\dev\\ccm\\wa\\ash\\1211\\ash\\code\\maclib",
+        "C:\\dev\\ccm\\wa\\ats\\1211\\ats\\code\\maclib"
+      ]
+    },
+    {
+      "name": "local-files",
+      "type": "local",
+      "syslib": [
+        "COPYBOOK",
+        "MACLIB",
+        "MACROS",
+        "INCLUDES"
+      ],
+      "libraries": [
+        {
+          "name": "MYFILE",
+          "locations": [
+            "COPYLIB",
+            "INCLUDELIB"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mvs-members",
+      "type": "mvs",
+      "syslib": [
+        "MVSMJD.MARCUS.COBCOPY",
+        "MVSMJD.MARCUS.PLINC"
+      ],
+      "libraries": [
+        {
+          "name": "MYLIB",
+          "locations": [
+            "MVSMJD.MARCUS.COPYLIB",
+            "MVSMJD.MARCUS.INCLUDE"
+          ]
+        }
+      ]
+    }
+  ],
+  "editor.formatOnSave": false,
+  "files.autoSave": "off",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "shellLauncher.shells.windows": [
+    {
+      "shell": "C:\\Windows\\<sysnative>\\cmd.exe",
+      "label": "cmd"
+    },
+    {
+      "shell": "C:\\Windows\\<sysnative>\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "label": "PowerShell"
+    },
+    {
+      "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "label": "Git bash"
+    },
+    {
+      "shell": "C:\\Windows\\<sysnative>\\bash.exe",
+      "label": "WSL Bash"
+    },
+    {
+      "shell": "C:\\Windows\\<sysnative>\\wsl.exe",
+      "label": "WSL"
+    }
+  ],
+  "Zowe Commands: History": {
+    "persistence": true,
+    "history": [
+      "D T",
+      "TIME",
+      "HRECALL"
+    ],
+    "sessions": []
+  },
+  "editor.columnSelection": false,
+  "git.autofetch": true,
+  "sql-formatter.dialect": "db2",
+  "sql-formatter.uppercase": true,
+  "editor.renderControlCharacters": true,
+  "editor.minimap.enabled": true,
+  "python.languageServer": "Pylance",
+  "extensions.ignoreRecommendations": false,
+  "java.semanticHighlighting.enabled": true,
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#7CB342",
+    "activityBar.activeBorder": "#7CB342",
+    "list.activeSelectionForeground": "#7CB342",
+    "list.inactiveSelectionForeground": "#7CB342",
+    "list.highlightForeground": "#7CB342",
+    "scrollbarSlider.activeBackground": "#7CB34250",
+    "editorSuggestWidget.highlightForeground": "#7CB342",
+    "textLink.foreground": "#7CB342",
+    "progressBar.background": "#7CB342",
+    "pickerGroup.foreground": "#7CB342",
+    "tab.activeBorder": "#7CB342",
+    "notificationLink.foreground": "#7CB342",
+    "editorWidget.resizeBorder": "#7CB342",
+    "editorWidget.border": "#7CB342",
+    "settings.modifiedItemIndicator": "#7CB342",
+    "settings.headerForeground": "#7CB342",
+    "panelTitle.activeBorder": "#7CB342",
+    "breadcrumb.activeSelectionForeground": "#7CB342",
+    "menu.selectionForeground": "#7CB342",
+    "menubar.selectionForeground": "#7CB342",
+    "editor.findMatchBorder": "#7CB342",
+    "selection.background": "#7CB34240",
+    "statusBarItem.remoteBackground": "#7CB342"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 0,
+  "http.proxyAuthorization": null,
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/zapp.json"
+      ],
+      "url": "file:///c%3A/Users/mdavage/.vscode/extensions/ibm.zopeneditor-1.2.7/resources/zapp-schema-0.0.2.json"
+    }
+  ],
+  "zopeneditor.welcomePage.show": false,
+  "remote.SSH.remotePlatform": {
+    "thor.local": "linux",
+    "odin.local": "linux",
+    "host-in-ssh-config-or-fqdn": "windows",
+    "odin": "linux",
+    "thor": "linux",
+    "z270": "linux"
+  },
+  "remote.SSH.showLoginTerminal": true,
+  "remote.SSH.useLocalServer": false,
+  "terminal.integrated.automationShell.linux": "bash",
+  "zopeneditor.hlasm.enableResolvingMacros": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "db2forzosdeveloperextension.db2sqlservice.port": "3000-3100",
+  "workbench.colorTheme": "Gentle Dark"
+}

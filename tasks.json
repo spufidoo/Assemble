@@ -1,0 +1,55 @@
+{
+  "version" : "2.0.0",
+  "tasks" : [
+    {
+      "label": "Assemble",
+      "type": "shell",
+      "showOutput": "always",
+      "windows": {
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "command": "powershell",
+        "args": [
+          "-noprofile",
+          "-File",
+          "assemble.ps1",          
+          "\"${file}\"",
+          "${input:zosmfProfile}"
+        ]
+      },
+      "presentation": {        
+        "echo": false,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "type": "pickString",
+      "id": "zosmfProfile",
+      "description": "What z/OSMF profile do you want to use for testing?",
+      "options": [
+          "DB2A",
+          "ESAJ",
+          "SJSC"
+        ],
+        "default": "DB2A"
+    },
+    {
+      "type": "promptString",
+      "id": "zosmfProfile2",
+      "description": "z/OSMF profile to use for testing:",
+      "default": "DB2A"
+    }
+  ]
+}
