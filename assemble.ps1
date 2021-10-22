@@ -5,7 +5,7 @@ Write-Host "Avengers Assemble!"
 $params = Get-Content '.\params.json' | ConvertFrom-JSON
 
 $remoteFilePath = Get-Remote_FilePath -localFilePath $args[0]
-$member = [io.path]::GetFileNameWithoutExtension($remoteFilePath)
+$member = [io.path]::GetFileNameWithoutExtension($remoteFilePath).ToUpper()
 Write-Host "Member $($member)"
 
 # This JCL can be parametrized more, if needed
